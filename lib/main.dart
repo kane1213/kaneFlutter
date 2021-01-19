@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:kane/views/HomePage.dart';
+// import 'package:kane/views/HomePage.dart';
+import 'package:kane/views/Home.dart';
 
 void main() => runApp(MyApp());
 
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       // A widget which will be started on application startup
-      home: HomePage(title: 'Flutter Kane Home Page'),
+      home: HomePage(),
     );
   }
 }
