@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import './views/HomePage.dart';
 // import 'package:provider_setup.dart';
 // import 'package:provider/provider.dart';
 
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: Text("TEST")
+        home: HomePage()
     );
   }
 }
