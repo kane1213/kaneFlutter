@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import './views/home.dart';
-import './provider_setup.dart';
+import 'package:/views/home.dart';
+import 'package:provider_setup.dart';
 import 'package:provider/provider.dart';
 // import 'package:motobikeaccessary/widget/inputForm.dart';
 
