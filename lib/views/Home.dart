@@ -23,19 +23,18 @@ class _HomePageState extends State<HomePage> {
               InputForm(_nameController, 'INSERT YOUR NAME'),
               ProviderWidget<UserModel>(builder: (context, model, child) {
                 // return Text("HERE");
-                print('--------------------------------');
-                print(model);
-                return Text("LOADING 1");
-                // return model.loading
-                //     ? Text("LOADING")
-                //     : FlatButton(
-                //         onPressed: () async {
-                //           UserBean userBean =
-                //               await model.login(_nameController.text);
-                //           print(userBean);
-                //         },
-                //         child: null,
-                //       );
+                
+                // return Text("LOADING 1");
+                return model.loading
+                    ? Text("LOADING")
+                    : FlatButton(
+                        onPressed: () async {
+                          UserBean userBean =
+                              await model.login(_nameController.text);
+                          print(userBean);
+                        },
+                        child: null,
+                      );
               })
             ]))));
   }
