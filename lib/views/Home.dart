@@ -23,6 +23,7 @@ class _HomePageState extends State<HomePage> {
               InputForm(_nameController, 'INSERT YOUR NAME'),
               ProviderWidget<UserModel>(builder: (context, model, child) {
                 // return Text("HERE");
+                print('--------------------------------');
                 print(model);
                 return Text("LOADING~!!");
                 // return model.loading
