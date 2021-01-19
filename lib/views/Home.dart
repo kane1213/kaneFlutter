@@ -25,7 +25,7 @@ class _HomePageState extends State<HomePage> {
                 // return Text("HERE");
                 print('--------------------------------');
                 print(model);
-                return Text("LOADING~!!");
+                return Text("LOADING 1");
                 // return model.loading
                 //     ? Text("LOADING")
                 //     : FlatButton(
